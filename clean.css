@@ -1,0 +1,53 @@
+
+.col-2{
+    display: flex;
+    flex: 0 0 230px;
+    background-color: aqua;
+    
+}
+
+.nav-item {
+    background-color: goldenrod;
+    border: 2px solid rebeccapurple;
+    
+   margin:1rem;
+}
+
+.sidebar {
+    align-items: start;
+    -ms-flex: 0 0 230px;
+    flex: 0 0 230px;
+    background-color: gainsboro;
+}
+
+h6{
+    font:500;
+}
+
+.tab-content {
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: black, 0.2;
+    
+}
+
+.container-fluid {
+    justify-content: center;
+    align-items: center;
+}
+
+.content-item-bot{
+    border: 1px black solid;
+    
+}
+
+#CitySelectTab{
+    border: .2em solid black;
+    background-color: #571f1f;
+}
+
+#CitySelectTabContent{
+    border: 10px red dotted;
+}
+
